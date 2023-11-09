@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharma Industry</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Pharmaceutical Industry</h1>
+    </header>
+    <section>
+        <h2>About</h2>
+        <p>The pharmaceutical industry is a large sector within the healthcare industry that manufactures and distributes drugs, vaccines, and medical devices. The industry's products serve people in every part of the world. Its size and scope are staggering. According to data, there are approximately 2000 generic pharmaceuticals currently on the market.</p>
+        <h2>Industry Outlook</h2>
+        <p>The pharmaceutical industry faces significant challenges in an era of disruption, innovation, and uncertainty. While these challenges are great, they also represent incredible opportunities for growth and profitability. With increasing focus on healthcare systems and cost-effectiveness, the industry will need to be innovative, efficient, and responsive to customer needs and expectations.</p>
+    </section>
+    <footer>
+        &copy; 2022 Pharmaceutical Industry. All rights reserved.
+    </footer>
+</body>
+</html>

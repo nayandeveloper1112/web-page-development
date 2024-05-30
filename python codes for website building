@@ -1,0 +1,36 @@
+ #there are several frameworks like Flask, Django, and Pyramid that you can use for building websites. Here's a simple example using Flask, a lightweight Python web framework:
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+#This code sets up a basic Flask application with a route for the homepage (/). It renders an HTML template named index.html. You'll need to create an HTML file named index.html in a directory named templates in the same directory as your Python script. Here's an example index.html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Flask Website</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>Welcome to my Flask website.</p>
+</body>
+</html>
+
+#To run this code:
+
+Install Flask using pip install Flask if you haven't already.
+Save the Python code in a file, for example, app.py.
+Create a folder named templates in the same directory as app.py and save index.html inside it.
+Run the Python script using python app.py.
+Visit http://127.0.0.1:5000/ in your web browser.
+This is a very basic example. You can expand upon it by adding more routes, handling form submissions, interacting with databases, etc., depending on your requirements.
+
+
+
